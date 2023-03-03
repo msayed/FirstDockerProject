@@ -1,0 +1,5 @@
+docker run --name expres-node-app -d -p 4000:4000 expnodeapp
+dokcer ps
+docker run expnodeapp
+docker image ls
+docker build -t expnodeapp .
